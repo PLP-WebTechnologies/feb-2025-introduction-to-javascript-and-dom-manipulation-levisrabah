@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM Manipulation Demo</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            line-height: 1.6;
+        }
+        #header {
+            color: #333;
+            border-bottom: 2px solid #eee;
+            padding-bottom: 10px;
+        }
+        .highlight {
+            background-color: yellow;
+            padding: 5px;
+        }
+        button {
+            padding: 8px 16px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            margin: 5px;
+        }
+        button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1 id="header">DOM Manipulation Demo</h1>
+    </header>
+
+    <main>
+        <section>
+            <h2 id="subheader">Original Content</h2>
+            <p id="content">This is some sample content that will be modified.</p>
+            <div id="container">
+                <p>Container paragraph</p>
+            </div>
+        </section>
+
+        <section>
+            <button id="changeTextBtn">Change Text</button>
+            <button id="styleTextBtn">Style Text</button>
+            <button id="toggleElementBtn">Toggle Element</button>
+        </section>
+    </main>
+
+    <footer>
+        <p id="footer">© 2025 DOM Demo</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
